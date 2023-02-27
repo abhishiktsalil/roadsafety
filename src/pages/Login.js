@@ -69,7 +69,9 @@ function Login() {
       // setSuccess(true);
       //navigate('/dashboard');
       if(returnURL==="/" || returnURL===""){
-        navigate("/dashboard", {replace: true});        
+        navigate(defaultURL, {replace: true});        
+      }else{
+        navigate(returnURL, {replace: true});        
       }      
       
     }catch(err){
