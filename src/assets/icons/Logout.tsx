@@ -1,0 +1,31 @@
+import * as React from "react";
+import { SVGProps } from "react";
+const SvgLogout = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="100"
+    height="100"
+    viewBox="0 0 21.203 19.348"
+    {...props}
+  >
+    <g data-name="logout (1)">
+      <g data-name="Group 49190">
+        <g data-name="Group 49189">
+          <path
+            data-name="Path 62365"
+            d="m20.941 9.167-2.269-1.6a.622.622 0 0 0-.979.508v.978H6.8a.621.621 0 1 0 0 1.242h10.893v.978a.622.622 0 0 0 .979.508l2.269-1.6a.622.622 0 0 0 0-1.014z"
+          />
+        </g>
+      </g>
+      <g data-name="Group 49192">
+        <g data-name="Group 49191">
+          <path
+            data-name="Path 62366"
+            d="M17.827 13.663a.621.621 0 0 0-.849.227 8.432 8.432 0 1 1 0-8.431.621.621 0 0 0 1.075-.622 9.674 9.674 0 1 0 0 9.675.621.621 0 0 0-.226-.849z"
+          />
+        </g>
+      </g>
+    </g>
+  </svg>
+);
+export default SvgLogout;

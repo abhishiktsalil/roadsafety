@@ -1,0 +1,51 @@
+import * as React from "react";
+import { SVGProps } from "react";
+const SvgExport = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1em"
+    height="1em"
+    viewBox="0 0 13.401 13.401"
+    {...props}
+  >
+    <g data-name="export (1)">
+      <g data-name="Group 49570">
+        <g data-name="Group 49569">
+          <path
+            data-name="Path 62776"
+            d="M337.988 0h-3.653a.505.505 0 0 0 0 1.01h3.148v3.148a.505.505 0 1 0 1.01 0V.505a.505.505 0 0 0-.505-.505z"
+            transform="translate(-325.093)"
+            style={{
+              fill: "#707070",
+            }}
+          />
+        </g>
+      </g>
+      <g data-name="Group 49572">
+        <g data-name="Group 49571">
+          <path
+            data-name="Path 62777"
+            d="M206.177.148a.5.5 0 0 0-.714 0l-7.205 7.205a.5.5 0 1 0 .714.714l7.205-7.205a.5.5 0 0 0 0-.714z"
+            transform="translate(-192.925)"
+            style={{
+              fill: "#707070",
+            }}
+          />
+        </g>
+      </g>
+      <g data-name="Group 49574">
+        <g data-name="Group 49573">
+          <path
+            data-name="Path 62778"
+            d="M11.179 70.17a.505.505 0 0 0-.505.505v5.606H1.01v-9.663h5.606a.505.505 0 0 0 0-1.01H.505a.505.505 0 0 0-.505.505v10.674a.505.505 0 0 0 .505.505h10.674a.5.5 0 0 0 .505-.505v-6.112a.505.505 0 0 0-.505-.505z"
+            transform="translate(0 -63.891)"
+            style={{
+              fill: "#707070",
+            }}
+          />
+        </g>
+      </g>
+    </g>
+  </svg>
+);
+export default SvgExport;

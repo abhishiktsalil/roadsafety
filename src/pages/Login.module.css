@@ -1,0 +1,195 @@
+.main {
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+    box-sizing: border-box;
+  }
+.loginbase{ background: url(../assets/images/bg.jpg) no-repeat; background-size: cover; width: 100%; height: 100vh; float: left; position: relative;} 
+.loginbase:before{ position:fixed; width: 100%; height: 100%; background: rgba(0,0,0,.5); left:0; top:0; content:"";}
+
+.logo_login img {
+    max-width: 150px;
+    margin-left: 30px;
+}
+.logo_login{ position: relative; z-index: 9;}
+.login_area {
+    max-width: 520px;
+    margin: 0 auto;
+    position: relative;
+}
+.login_box {
+    background: #fff;
+    border-radius: 20px;
+    padding: 40px 50px;
+    box-sizing: border-box;
+}
+ul.steps {
+    display: flex;
+    padding: 10px 0 20px;
+    border-bottom: #7d7d7d 1px solid;
+    margin-bottom: 20px;
+}
+ul.steps li {
+    
+    padding: 0;
+    
+    font-size: 12px;
+    list-style-type: none;
+    margin: 0 5px;
+    position: relative;
+}
+
+ul.steps input {
+    padding-left: 11px;
+    position: absolute;
+    top: 17px;
+    left: 13px;
+}
+.steps label {
+    padding: 15px 48px 15px 38px;
+    border: #d6d6d6 1px solid;
+    border-radius: 6px;
+}
+ul.formArea {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul.formArea li {
+    margin-bottom: 13px;
+    position: relative;
+}
+/* Email floting */
+.float_container {
+    border: solid 1px #d6d6d6;
+    padding: 0 8px;
+    position: relative;
+    border-radius: 6px;
+}
+  .float_container input {
+    border: none;
+    font-size: 16px;
+    margin: 16px 0 10px;
+    outline: 0;
+    width: 100%;
+  }
+  .float_container label {
+    font-size: 12px;
+    position: absolute;
+    transform-origin: top left;
+    transform: translate(2px, 4px) scale(1);
+    transition: all .1s ease-in-out;
+    color: #989898;
+}
+.float_container.activebor label {
+    transform: translate(0, -8px) scale(.75);
+    font-weight: 600;
+    color:#000;
+    background: #fff;
+  }
+  /* email floting end */
+  /* Phone floting */
+.float_container2 {
+    border: solid 1px #d6d6d6;
+    padding: 0 8px;
+    position: relative;
+    border-radius: 6px;
+}
+  .float_container2 input {
+    border: none;
+    font-size: 12px;
+    margin: 16px 0 10px;
+    outline: 0;
+    width: 100%;
+  }
+  .float_container2 label {
+    font-size: 12px;
+    position: absolute;
+    transform-origin: top left;
+    transform: translate(2px, 4px) scale(1);
+    transition: all .1s ease-in-out;
+    color: #989898;
+}
+.float_container2.activebor2 label {
+    transform: translate(0, -8px) scale(.75);
+    font-weight: 600;
+    color:#000;
+    background: #fff;
+  }
+  /* Phone floting end */
+  .activebor {
+    border: #000 1px solid !important; 
+}
+.btn { text-transform: uppercase; font-size: 13px; padding:10px 30px; border:none}
+.btn_yello {
+    background: #e2b73b;
+    outline:#e2b73b 2px solid;
+}
+.btn_yello:hover {
+    background: #fff;
+    outline:#e2b73b 2px solid;
+}
+button.btn.btn_yello.sign_in_btn {
+    border-radius: 20px;
+    width: 100%;
+    color: #fff;
+    height: 40px;
+}
+button.btn.btn_yello.sign_in_btn:hover,
+button.btn.btn_yello.sign_in_btn:focus, 
+button.btn.btn_yello.sign_in_btn:visited{ 
+    color: #000; text-decoration: none; 
+    outline: #e2b73b 2px solid;
+    border:none;
+    height: 40px;
+}
+.other_req {
+    display: flex;
+    font-size: 11px;
+}
+.forgot_pass {
+    margin-left: auto;
+}
+.forgot_pass a {
+    color: #c77225;
+    text-decoration: none;
+}
+.forgot_pass a:hover{ color: #000;}
+.remember_me input {
+    transform: scale(1.5);
+    margin-right: 7px;
+    position: relative;
+    top: 2px;
+}
+.showPass {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+    font-size: 11px;
+    background: none;
+    border: none;
+}
+.steps li:nth-child(1){
+    background: url(../assets/svg/police.svg) no-repeat;
+    background-position: 90%;
+    background-size: 15px;
+}
+.steps li:nth-child(2) {
+    background: url(../assets/svg/hospital.svg) no-repeat;
+    background-position: 90%;
+    background-size: 15px;
+}
+
+.steps li:nth-child(3){
+    background: url(../assets/svg/auditor.svg) no-repeat;
+    background-position: 90%;
+    background-size: 15px;
+}
+p.errMsg{
+    background-color: #cd5c5c78;
+    color: darkred;
+    border-radius: 5px;
+}
+.offscreen{
+    display: none;
+}

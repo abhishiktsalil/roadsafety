@@ -1,0 +1,53 @@
+.main {
+  width: 100%;
+  float: left;
+  margin-top: 30px;
+  box-sizing: border-box;
+}
+.main::before {
+  box-sizing: border-box;
+}
+
+button.btnExport {
+  position: absolute;
+  right: 30px;
+  /* top: 0; */
+  margin: 0;
+  background: #fff;
+  border: #d6d6d6 1px solid;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 5px 15px 5px 30px;
+  text-transform: uppercase;
+  background: url(../assets/svg/export.svg) no-repeat 10px center;
+  font-size: 12px;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  border: none;
+  border-bottom: #000 2px solid;
+}
+
+.activeTab {
+    border:none !important;
+    border-bottom: #000 2px solid !important;
+}
+
+/* AdminManagement */
+.headingWrap {
+  width: 100%;
+  float: left;
+  position: relative;
+  border-bottom: #d6d6d6 1px solid;
+  margin-bottom: 20px;
+  padding-bottom: 8px;
+}
+.headingWrap button.btnExport{ top: -8px;}
+.headingTxt {
+  font-weight: 600;
+}
+.sub_content_info{
+  width: 100%;
+  float: left;
+}

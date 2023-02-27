@@ -1,0 +1,97 @@
+.header{
+    display: flex;
+}
+
+.topBanner {
+    /* background: #000 url(../img/hero-img.png) no-repeat; */
+    background: #000 url(../../assets/images/hero-img.png) no-repeat;
+    border-radius: 0 10px;
+    padding: 15px 25px;
+    color: #fff;
+    padding-right: 160px;
+    background-size: 37%;
+    background-position: right bottom;
+}
+
+.topBanner  span {
+    font-size: 14px;
+    font-weight: 300;
+    position: relative;
+    top: -3px;
+    margin-left: 10px;
+    color: #d6d6d6;
+}
+
+.topBanner  span::before {
+    content: "";
+    left: -8px;
+    top: 0;
+    height: 19px;
+    background: #d6d6d6;
+    width: 1px;
+    position: absolute;
+}
+
+.addArea {
+    width: 68%;
+}
+
+.addArea p {
+    color: #d6d6d6;
+    font-size: 12px;
+    margin: 0;
+}
+
+.headingArea{
+    color: #fff;
+    font-size: 14px;
+}
+
+.userPanel {
+    margin-left: auto;
+    display: flex;
+    font-size: 12px;
+}
+.userBase {
+    background: #eee;
+    padding: 5px 30px;
+    border-radius: 0 20px 20px 0;
+    position: relative;
+}
+.userBase:before {
+    background: #CA7E3B url(../../assets/svg/user.svg) no-repeat center center;
+    position: absolute;
+    content: "";
+    top: -2px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    left: -30px;
+}
+.userBase p{ margin-bottom:0;}
+.userEmail {
+    font-weight: 600;
+}
+.userBase p {
+    font-size: 10px;
+}
+
+.language select {
+    border: none;
+    padding: 10px 0;
+    margin: 0 20px;
+}
+
+.adminLogin a {
+    color: #000;
+    text-decoration: none;
+    padding: 10px 0;
+    display: block;
+}
+
+.logout a {
+    background: url(../../assets/svg/logout.svg) no-repeat;
+    background-position: center left;
+    padding-left: 20px;
+    background-size: 16px;
+}
